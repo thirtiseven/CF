@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = min(a,int(b/2),int(c/4))
+print(d*7)
