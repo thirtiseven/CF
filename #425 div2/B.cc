@@ -7,49 +7,56 @@
 int main(int argc, char *argv[]) {  
 	std::string good_letter, pattern;
 	std::set<char> letter_set;
+	letter_set.clear();
 	std::cin >> good_letter >> pattern;
+	int plen = pattern.length();
 	for(int i = 0; i < good_letter.length(); i++) {
 		letter_set.insert(good_letter[i]);
 	}
 	int n;
 	std::cin >> n;
-	bool flag;
+	bool flag = 0, star = 0;
 	for(int i = 0; i < n; i++) {
 		std::string s;
+		s.clear();
 		std::cin >> s;
 		flag = 0;
 		int len = s.length();
-		if(pattern.length() - 1 > s.length()) {
+		if(pattern.length() - 1 > len) {
 			std::cout << "NO\n";
 			continue;
 		}
 		int j = 0;
-		for(int i = 0; i < len; i++) {
+		for(int i = 0; i < plen; i++) {
 			//std::cout << i << " " << j << "\n";
 			if(pattern[i] == '*') {
-				int l = len - pattern.length();
+				star = 1;
+				int l = len - plen;
+				if(l == -1) {
+					continue;
+				}
 				if(l >= 1) {
-					int k;
-					for(k = j; k <= j + l; k++) {
-						if(letter_set.find(s[k]) == letter_set.end()) {
-							continue;
-						} else {
+					int k = j;
+					for(; k <= j + l; k++) {
+						if(letter_set.count(s[k]) == 1) {
 							std::cout << "NO\n";
 							flag = 1;
 							goto outside;
 						}
 					}
-					i++;
-					j += (l + 1);
+					j += l + 1;
+					//std::cout << i << " " << j << "\n";
+					continue;
 				}
-				continue;
-			} else if(pattern[i] == s[j]) {
+			} 
+			//std::cout << i << " " << j << "\n";
+			if(pattern[i] == s[j]) {
 				j++;
 				continue;
-			} else if(pattern[i] == '?' && letter_set.find(s[j]) != letter_set.end()) {
+			} else if(pattern[i] == '?' && letter_set.count(s[j]) == 1) {
 				j++;
 				continue;
-			} else if(pattern[i] == '*' && letter_set.find(s[j]) == letter_set.end()) {
+			} else if(pattern[i] == '*' && letter_set.count(s[j]) == 0) {
 				j++;
 				continue;
 			} else {
@@ -58,7 +65,12 @@ int main(int argc, char *argv[]) {
 				break;
 			}
 		}
-		outside: if(!flag) {
+		if(j < len && !flag && !star) {
+			std::cout << "No\n";
+			flag = 1;
+		}
+		outside: 
+		if(!flag) {
 			std::cout << "YES\n";
 		}	 
 	}
