@@ -1,20 +1,26 @@
 #include <iostream>
 #include <cmath>
 
-struct Point{
+struct Point {
 	double x, y;
-	Point(){};
-	Point(double x, double y) :x(x), y(y){}
-	Point operator - (const Point &b) const{ return Point(x - b.x, y - b.y);
+	Point() { };
+	Point(double x, double y) :x(x), y(y) { } 
+	Point operator - (const Point &b) const { 
+		return Point(x - b.x, y - b.y);
 	}
-	Point operator + (const Point &b) const{ return Point(x + b.x, y + b.y);
+	Point operator + (const Point &b) const { 
+		return Point(x + b.x, y + b.y);
 	}
-	Point operator * (const double k) const{ return Point(k*x, k*y);
+	Point operator * (const double k) const { 
+		return Point(k*x, k*y);
 	}
-	Point operator / (const double k) const{ return Point(x / k, y / k);
+	Point operator / (const double k) const { 
+		return Point(x / k, y / k);
 	}
-	double Slope(){ return y / x;
-	} };
+	double Slope() { 
+		return y / x;
+	}
+};
 
 int main(int argc, char *argv[]) {  
 	Point a, b, c;
