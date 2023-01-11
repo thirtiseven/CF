@@ -1,0 +1,1403 @@
+2023.01.11 14:16:59 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/lihaoyang/Code/CF/#839 div3/.metals/lsp.trace.json or /Users/lihaoyang/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.01.11 14:17:00 INFO  logging to file /Users/lihaoyang/Code/CF/#839 div3/.metals/metals.log
+2023.01.11 14:17:00 INFO  Started: Metals version 0.11.10 in workspace '/Users/lihaoyang/Code/CF/#839 div3' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/lihaoyang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.11 14:17:04 INFO  time: initialize in 4.55s
+2023.01.11 14:17:05 WARN  Build server is not auto-connectable.
+2023.01.11 14:17:05 WARN  no build tool detected in workspace '/Users/lihaoyang/Code/CF/#839 div3'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.01.11 14:17:05 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+2023.01.11 14:17:17 INFO  no build target found for /Users/lihaoyang/Code/CF/#839 div3/a.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.01.11 14:17:18 INFO  time: code lens generation in 12s
+2023.01.11 14:25:00 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+Jan 11, 2023 2:25:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+2023.01.11 14:25:12 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+2023.01.11 14:28:08 INFO  shutting down Metals
+2023.01.11 14:28:16 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/lihaoyang/Code/CF/#839 div3/.metals/lsp.trace.json or /Users/lihaoyang/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.01.11 14:28:17 INFO  logging to file /Users/lihaoyang/Code/CF/#839 div3/.metals/metals.log
+2023.01.11 14:28:17 INFO  Started: Metals version 0.11.10 in workspace '/Users/lihaoyang/Code/CF/#839 div3' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/lihaoyang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.11 14:28:18 INFO  time: initialize in 1.35s
+2023.01.11 14:28:19 WARN  Build server is not auto-connectable.
+2023.01.11 14:28:19 WARN  no build tool detected in workspace '/Users/lihaoyang/Code/CF/#839 div3'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.01.11 14:28:19 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+2023.01.11 14:28:23 INFO  no build target found for /Users/lihaoyang/Code/CF/#839 div3/a.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.01.11 14:28:25 INFO  time: code lens generation in 6.14s
+Jan 11, 2023 2:29:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.01.11 14:30:46 INFO  shutting down Metals
+2023.01.11 14:31:17 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/lihaoyang/Code/CF/#839 div3/.metals/lsp.trace.json or /Users/lihaoyang/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.01.11 14:31:18 INFO  logging to file /Users/lihaoyang/Code/CF/#839 div3/.metals/metals.log
+2023.01.11 14:31:18 INFO  Started: Metals version 0.11.10 in workspace '/Users/lihaoyang/Code/CF/#839 div3' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/lihaoyang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.11 14:31:20 INFO  time: initialize in 1.85s
+Jan 11, 2023 2:31:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.01.11 14:31:20 WARN  Build server is not auto-connectable.
+2023.01.11 14:31:20 WARN  no build tool detected in workspace '/Users/lihaoyang/Code/CF/#839 div3'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.01.11 14:31:20 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+2023.01.11 14:31:23 INFO  no build target found for /Users/lihaoyang/Code/CF/#839 div3/a.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.01.11 14:31:25 INFO  time: code lens generation in 5.04s
+Jan 11, 2023 2:33:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.01.11 14:35:58 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+2023.01.11 14:36:03 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+Jan 11, 2023 2:36:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 62
+Jan 11, 2023 2:36:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 72
+2023.01.11 14:38:04 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+Jan 11, 2023 2:43:59 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.01.11 14:45:39 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+Jan 11, 2023 2:46:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 212
+2023.01.11 14:46:46 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+Exception in thread "pool-3-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2023.01.11 14:48:06 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+2023.01.11 14:48:48 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+2023.01.11 14:48:51 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+Jan 11, 2023 2:51:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 302
+2023.01.11 14:51:26 INFO  time: code lens generation in 1.96s
+2023.01.11 15:07:55 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+Jan 11, 2023 3:12:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 466
+2023.01.11 15:12:47 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+2023.01.11 15:13:02 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+2023.01.11 15:16:41 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+2023.01.11 15:16:41 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+2023.01.11 15:16:49 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+2023.01.11 15:17:01 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+2023.01.11 15:18:17 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+2023.01.11 15:18:51 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+2023.01.11 15:19:45 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+2023.01.11 15:19:56 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+2023.01.11 15:20:00 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+2023.01.11 15:20:01 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/a.scala
+2023.01.11 15:33:02 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/b.scala
+2023.01.11 15:33:02 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/b.scala
+2023.01.11 15:33:03 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/b.scala
+2023.01.11 15:33:13 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/b.scala
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.9/scalafmt-config_2.13-3.5.9.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.12/scalameta_2.13-4.5.12.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.9/scalafmt-sysops_2.13-3.5.9.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.9/scalafmt-config_2.13-3.5.9.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.12/scalameta_2.13-4.5.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.9/scalafmt-sysops_2.13-3.5.9.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.10.0/metaconfig-pprint_2.13-0.10.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.10.0/metaconfig-pprint_2.13-0.10.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.pom
+Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.pom
+Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.5/geny_2.13-0.6.5.pom
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.5/geny_2.13-0.6.5.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.jar
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.5/geny_2.13-0.6.5.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.10.0/metaconfig-pprint_2.13-0.10.0.jar
+Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.10.0/metaconfig-pprint_2.13-0.10.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.9/scalafmt-sysops_2.13-3.5.9.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.5/geny_2.13-0.6.5.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.9/scalafmt-sysops_2.13-3.5.9.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.12/scalameta_2.13-4.5.12.jar
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.12/scalameta_2.13-4.5.12.jar (30.97 %, 245212 / 791731)
+https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar (20.90 %, 261595 / 1251801)
+https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar (19.86 %, 343514 / 1729586)
+https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.jar (9.42 %, 196060 / 2082225)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (5.99 %, 359898 / 6003601)
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (2.63 %, 114688 / 4368574)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.12/scalameta_2.13-4.5.12.jar (49.60 %, 392668 / 791731)
+https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar (33.42 %, 418368 / 1251801)
+https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar (27.44 %, 474586 / 1729586)
+https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.jar (15.71 %, 327132 / 2082225)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (7.63 %, 458202 / 6003601)
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (7.36 %, 321344 / 4368574)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.12/scalameta_2.13-4.5.12.jar (67.33 %, 533056 / 791731)
+https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar (42.58 %, 533056 / 1251801)
+https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar (35.02 %, 605658 / 1729586)
+https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.jar (20.09 %, 418368 / 2082225)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (10.09 %, 605658 / 6003601)
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (9.98 %, 436032 / 4368574)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.12/scalameta_2.13-4.5.12.jar (79.74 %, 631360 / 791731)
+https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar (56.98 %, 713280 / 1251801)
+https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar (39.93 %, 690560 / 1729586)
+https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.jar (23.24 %, 483904 / 2082225)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (11.73 %, 703962 / 6003601)
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (11.48 %, 501568 / 4368574)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.12/scalameta_2.13-4.5.12.jar (96.30 %, 762432 / 791731)
+https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar (68.76 %, 860736 / 1251801)
+https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar (50.35 %, 870784 / 1729586)
+https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.jar (29.53 %, 614976 / 2082225)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (14.18 %, 851418 / 6003601)
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (14.11 %, 616256 / 4368574)
+
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.12/scalameta_2.13-4.5.12.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.jar
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar (74.00 %, 926272 / 1251801)
+https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar (60.77 %, 1051008 / 1729586)
+https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.jar (38.98 %, 811584 / 2082225)
+https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.jar (21.91 %, 114688 / 523426)
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (18.23 %, 796480 / 4368574)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (16.37 %, 982490 / 6003601)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar (93.22 %, 1166912 / 1251801)
+https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.jar (68.86 %, 360448 / 523426)
+https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar (66.45 %, 1149312 / 1729586)
+https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.jar (49.75 %, 1035840 / 2082225)
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (21.87 %, 955200 / 4368574)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (18.55 %, 1113562 / 6003601)
+
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar
+Still downloading:
+https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar (88.52 %, 1531072 / 1729586)
+https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.jar (62.34 %, 1297984 / 2082225)
+https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.jar (33.86 %, 179678 / 530687)
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (30.12 %, 1315648 / 4368574)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (22.64 %, 1359322 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (3.03 %, 114139 / 3772083)
+
+Still downloading:
+https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar (96.10 %, 1662144 / 1729586)
+https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.jar (69.42 %, 1445440 / 2082225)
+https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.jar (55.47 %, 294366 / 530687)
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (33.00 %, 1441600 / 4368574)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (27.01 %, 1621466 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (8.24 %, 310747 / 3772083)
+
+Still downloading:
+https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar (99.89 %, 1727680 / 1729586)
+https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.jar (78.84 %, 418368 / 530687)
+https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.jar (76.25 %, 1587776 / 2082225)
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (35.62 %, 1556288 / 4368574)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (29.19 %, 1752538 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (12.83 %, 483904 / 3772083)
+
+Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.jar (84.91 %, 1768000 / 2082225)
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (43.88 %, 1916736 / 4368574)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (32.47 %, 1949146 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (18.04 %, 680512 / 3772083)
+https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar (3.40 %, 81373 / 2391658)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (1.76 %, 212992 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.jar (91.20 %, 1899072 / 2082225)
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (49.01 %, 2140992 / 4368574)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (35.47 %, 2129370 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (21.95 %, 827968 / 3772083)
+https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar (8.88 %, 212445 / 2391658)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (3.39 %, 409600 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.jar (96.71 %, 2013760 / 2082225)
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (53.51 %, 2337600 / 4368574)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (36.83 %, 2211290 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (25.86 %, 975424 / 3772083)
+https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar (12.99 %, 310749 / 2391658)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (4.74 %, 573440 / 12097183)
+
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.9/scalafmt-config_2.13-3.5.9.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.9/scalafmt-config_2.13-3.5.9.jar
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (59.39 %, 2594624 / 4368574)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (40.65 %, 2440666 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (32.24 %, 1216064 / 3772083)
+https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar (18.86 %, 451136 / 2391658)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (6.23 %, 753664 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (62.02 %, 2709312 / 4368574)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (43.66 %, 2620890 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (36.15 %, 1363520 / 3772083)
+https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar (26.40 %, 631360 / 2391658)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (7.58 %, 917504 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (68.02 %, 2971456 / 4368574)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (46.38 %, 2784730 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (40.49 %, 1527360 / 3772083)
+https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar (37.36 %, 893504 / 2391658)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (9.07 %, 1097728 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (71.02 %, 3102528 / 4368574)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (49.11 %, 2948570 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (45.13 %, 1702464 / 3772083)
+https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar (41.26 %, 986688 / 2391658)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (10.02 %, 1212416 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (76.53 %, 3343168 / 4368574)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (51.30 %, 3079642 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (49.91 %, 1882688 / 3772083)
+https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar (45.37 %, 1084992 / 2391658)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (11.78 %, 1425408 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (79.53 %, 3474240 / 4368574)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (52.93 %, 3177946 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (52.52 %, 1980992 / 3772083)
+https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar (50.16 %, 1199680 / 2391658)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (12.87 %, 1556480 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (82.15 %, 3588928 / 4368574)
+https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar (57.70 %, 1379904 / 2391658)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (56.43 %, 2128448 / 3772083)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (55.94 %, 3358170 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (13.81 %, 1671168 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (84.40 %, 3687232 / 4368574)
+https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar (61.81 %, 1478208 / 2391658)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (60.63 %, 2287168 / 3772083)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (57.85 %, 3472858 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (15.30 %, 1851392 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (86.91 %, 3796800 / 4368574)
+https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar (68.44 %, 1636928 / 2391658)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (64.54 %, 2434624 / 3772083)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (61.12 %, 3669466 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (16.66 %, 2015232 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (90.29 %, 3944256 / 4368574)
+https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar (78.03 %, 1866304 / 2391658)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (66.71 %, 2516544 / 3772083)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (63.03 %, 3784154 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (17.74 %, 2146304 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (94.04 %, 4108096 / 4368574)
+https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar (84.20 %, 2013760 / 2391658)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (70.62 %, 2664000 / 3772083)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (66.03 %, 3964378 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (18.69 %, 2260992 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar (97.41 %, 4255552 / 4368574)
+https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar (88.99 %, 2128448 / 2391658)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (76.57 %, 2888256 / 3772083)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (68.49 %, 4111834 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (20.04 %, 2424832 / 12097183)
+
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar (95.63 %, 2287168 / 2391658)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (82.65 %, 3117632 / 3772083)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (71.76 %, 4308442 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (21.67 %, 2621440 / 12097183)
+
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (91.64 %, 3456576 / 3772083)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (75.58 %, 4537818 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (23.02 %, 2785280 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (94.24 %, 3554880 / 3772083)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (78.04 %, 4685274 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (24.24 %, 2932736 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar (98.15 %, 3702336 / 3772083)
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (79.68 %, 4783578 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (26.00 %, 3145728 / 12097183)
+
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (82.95 %, 4980186 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (26.95 %, 3260416 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (85.41 %, 5127642 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (27.90 %, 3375104 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (87.87 %, 5275098 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (29.12 %, 3522560 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (89.50 %, 5373402 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (30.47 %, 3686400 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (91.14 %, 5471706 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (31.56 %, 3817472 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (93.05 %, 5586394 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (32.78 %, 3964928 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (95.23 %, 5717466 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (33.86 %, 4096000 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (97.42 %, 5848538 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (34.67 %, 4194304 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar (99.60 %, 5979610 / 6003601)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (35.89 %, 4341760 / 12097183)
+
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (37.65 %, 4554752 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (39.01 %, 4718592 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (40.22 %, 4866048 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (41.99 %, 5079040 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (42.80 %, 5177344 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (43.88 %, 5308416 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (44.69 %, 5406720 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (46.05 %, 5570560 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (47.13 %, 5701632 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (48.35 %, 5849088 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (49.30 %, 5963776 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (51.06 %, 6176768 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (52.01 %, 6291456 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (53.09 %, 6422528 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (54.45 %, 6586368 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (55.80 %, 6750208 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (56.61 %, 6848512 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (57.43 %, 6946816 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (58.51 %, 7077888 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (59.46 %, 7192576 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (60.00 %, 7258112 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (61.35 %, 7421952 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (62.71 %, 7585792 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (63.79 %, 7716864 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (65.82 %, 7962624 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (67.18 %, 8126464 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (67.58 %, 8175616 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (68.53 %, 8290304 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (69.48 %, 8404992 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (70.29 %, 8503296 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (71.24 %, 8617984 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (72.19 %, 8732672 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (73.81 %, 8929280 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (74.76 %, 9043968 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (75.84 %, 9175040 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (77.06 %, 9322496 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (78.01 %, 9437184 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (79.50 %, 9617408 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (80.18 %, 9699328 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (81.26 %, 9830400 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (82.89 %, 10027008 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (83.84 %, 10141696 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (84.65 %, 10240000 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (85.73 %, 10371072 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (86.68 %, 10485760 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (87.90 %, 10633216 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (88.98 %, 10764288 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (89.52 %, 10829824 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (90.88 %, 10993664 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (91.83 %, 11108352 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (93.04 %, 11255808 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (93.99 %, 11370496 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (95.08 %, 11501568 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (96.70 %, 11698176 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (97.51 %, 11796480 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (98.73 %, 11943936 / 12097183)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar (99.95 %, 12091392 / 12097183)
+
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1565
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1568
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1576
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1577
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1586
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1593
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1594
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1598
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1597
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1604
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1603
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1601
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1612
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1611
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1616
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1613
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1624
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1622
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1625
+2023.01.11 15:57:47 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/b.scala
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1630
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1629
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1631
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1643
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1647
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1652
+2023.01.11 15:57:47 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/b.scala
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1657
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1636
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1656
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1663
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1661
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1655
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1673
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1683
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1685
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1688
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1709
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1708
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1717
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1720
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1724
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1722
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1723
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1732
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1730
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1731
+2023.01.11 15:57:47 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/b.scala
+2023.01.11 15:57:47 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/b.scala
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1738
+2023.01.11 15:57:47 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/b.scala
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1739
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1737
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1662
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1749
+Jan 11, 2023 3:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1752
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1758
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1766
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1770
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1775
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1777
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1780
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1784
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1787
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1786
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1788
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1793
+2023.01.11 15:57:48 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/b.scala
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1802
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1751
+Exception in thread "pool-3-thread-2" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1804
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1803
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1810
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1814
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1813
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1817
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1822
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1821
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1743
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1827
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1826
+2023.01.11 15:57:47 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/b.scala
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1831
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1832
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1805
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1837
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1844
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1841
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1847
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1853
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1840
+2023.01.11 15:57:48 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/b.scala
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1909
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1910
+Jan 11, 2023 3:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1930
+2023.01.11 16:23:47 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/c.scala
+2023.01.11 16:23:48 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/c.scala
+2023.01.11 16:23:48 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/c.scala
+2023.01.11 16:24:43 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/c.scala
+2023.01.11 16:25:33 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/c.scala
+Jan 11, 2023 4:27:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 2765
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 2765
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 2765
+	at java.lang.String.substring(String.java:1963)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jan 11, 2023 4:27:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 2765
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 2765
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 2765
+	at java.lang.String.substring(String.java:1963)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jan 11, 2023 4:27:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 2765
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 2765
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 2765
+	at java.lang.String.substring(String.java:1963)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jan 11, 2023 4:27:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 2689
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 2689
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 2689
+	at java.lang.String.substring(String.java:1963)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jan 11, 2023 4:27:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 2772
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 2772
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 2772
+	at java.lang.String.substring(String.java:1963)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jan 11, 2023 4:28:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 2841
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 2841
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 2841
+	at java.lang.String.substring(String.java:1963)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jan 11, 2023 4:28:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 2841
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 2841
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 2841
+	at java.lang.String.substring(String.java:1963)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jan 11, 2023 4:28:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 2689
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 2689
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 2689
+	at java.lang.String.substring(String.java:1963)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jan 11, 2023 4:28:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 2765
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 2765
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 2765
+	at java.lang.String.substring(String.java:1963)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jan 11, 2023 4:28:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 2765
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 2765
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 2765
+	at java.lang.String.substring(String.java:1963)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jan 11, 2023 4:28:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 2765
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 2765
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 2765
+	at java.lang.String.substring(String.java:1963)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jan 11, 2023 4:28:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 2856
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 2856
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 2856
+	at java.lang.String.substring(String.java:1963)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jan 11, 2023 4:28:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 2917
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 2917
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 2917
+	at java.lang.String.substring(String.java:1963)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jan 11, 2023 4:30:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 3078
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 3078
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 3078
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.StringOps$.apply$extension(StringOps.scala:188)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$13(ExtractValueCodeAction.scala:60)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$12(ExtractValueCodeAction.scala:57)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$9(ExtractValueCodeAction.scala:55)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$7(ExtractValueCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$6(ExtractValueCodeAction.scala:51)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$1(ExtractValueCodeAction.scala:49)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jan 11, 2023 4:30:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 3078
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 3078
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 3078
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.StringOps$.apply$extension(StringOps.scala:188)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$13(ExtractValueCodeAction.scala:60)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$12(ExtractValueCodeAction.scala:57)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$9(ExtractValueCodeAction.scala:55)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$7(ExtractValueCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$6(ExtractValueCodeAction.scala:51)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$1(ExtractValueCodeAction.scala:49)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jan 11, 2023 4:30:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 3078
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 3078
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 3078
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.StringOps$.apply$extension(StringOps.scala:188)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$13(ExtractValueCodeAction.scala:60)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$12(ExtractValueCodeAction.scala:57)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$9(ExtractValueCodeAction.scala:55)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$7(ExtractValueCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$6(ExtractValueCodeAction.scala:51)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$1(ExtractValueCodeAction.scala:49)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jan 11, 2023 4:30:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 3186
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 3186
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 3186
+	at java.lang.String.substring(String.java:1963)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jan 11, 2023 4:30:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 3078
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 3078
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 3078
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.StringOps$.apply$extension(StringOps.scala:188)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$13(ExtractValueCodeAction.scala:60)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$12(ExtractValueCodeAction.scala:57)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$9(ExtractValueCodeAction.scala:55)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$7(ExtractValueCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$6(ExtractValueCodeAction.scala:51)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$1(ExtractValueCodeAction.scala:49)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jan 11, 2023 4:31:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 3078
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 3078
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 3078
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.StringOps$.apply$extension(StringOps.scala:188)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$13(ExtractValueCodeAction.scala:60)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$12(ExtractValueCodeAction.scala:57)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$9(ExtractValueCodeAction.scala:55)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$7(ExtractValueCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$6(ExtractValueCodeAction.scala:51)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$1(ExtractValueCodeAction.scala:49)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.01.11 16:31:12 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/c.scala
+Jan 11, 2023 4:31:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 3078
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 3078
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 3078
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.StringOps$.apply$extension(StringOps.scala:188)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$13(ExtractValueCodeAction.scala:60)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$12(ExtractValueCodeAction.scala:57)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$9(ExtractValueCodeAction.scala:55)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$7(ExtractValueCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$6(ExtractValueCodeAction.scala:51)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$1(ExtractValueCodeAction.scala:49)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.01.11 16:31:49 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/c.scala
+2023.01.11 16:32:23 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/c.scala
+2023.01.11 16:32:54 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/c.scala
+2023.01.11 16:33:10 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/c.scala
+2023.01.11 16:35:31 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/c.scala
+2023.01.11 16:35:41 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/c.scala
+2023.01.11 16:35:42 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/c.scala
+2023.01.11 16:36:00 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/c.scala
+2023.01.11 16:36:12 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/c.scala
+2023.01.11 16:40:39 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/c.scala
+2023.01.11 16:41:09 WARN  no build target for: /Users/lihaoyang/Code/CF/#839 div3/c.scala
+2023.01.11 16:44:22 INFO  shutting down Metals
