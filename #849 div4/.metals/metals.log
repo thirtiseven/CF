@@ -1,0 +1,204 @@
+2023.02.03 22:37:29 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/lihaoyang/Code/CF/#849 div4/.metals/lsp.trace.json or /Users/lihaoyang/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.03 22:37:29 INFO  logging to file /Users/lihaoyang/Code/CF/#849 div4/.metals/metals.log
+2023.02.03 22:37:29 INFO  Started: Metals version 0.11.10 in workspace '/Users/lihaoyang/Code/CF/#849 div4' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/lihaoyang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.03 22:37:31 INFO  time: initialize in 1.97s
+2023.02.03 22:37:32 WARN  Build server is not auto-connectable.
+2023.02.03 22:37:32 WARN  no build tool detected in workspace '/Users/lihaoyang/Code/CF/#849 div4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.03 22:37:32 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/A.scala
+2023.02.03 22:37:35 INFO  no build target found for /Users/lihaoyang/Code/CF/#849 div4/A.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.03 22:37:37 INFO  time: code lens generation in 4.42s
+2023.02.03 22:39:42 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/A.scala
+2023.02.03 22:40:26 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/A.scala
+2023.02.03 22:40:33 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/A.scala
+2023.02.03 22:41:36 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/A.scala
+2023.02.03 22:41:38 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/A.scala
+2023.02.03 22:43:32 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/B.scala
+2023.02.03 22:43:32 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/B.scala
+2023.02.03 22:44:13 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/B.scala
+2023.02.03 22:45:08 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/B.scala
+Feb 03, 2023 10:45:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 682
+Feb 03, 2023 10:46:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 846
+2023.02.03 22:46:19 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/B.scala
+2023.02.03 22:46:23 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/B.scala
+2023.02.03 22:46:33 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/B.scala
+2023.02.03 22:46:38 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/B.scala
+2023.02.03 22:49:24 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/C.scala
+2023.02.03 22:49:24 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/C.scala
+2023.02.03 22:49:32 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/C.scala
+2023.02.03 22:49:49 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/C.scala
+Exception in thread "pool-3-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2023.02.03 22:51:21 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/C.scala
+2023.02.03 22:52:07 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/C.scala
+2023.02.03 22:52:19 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/C.scala
+2023.02.03 22:52:45 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/C.scala
+2023.02.03 22:53:44 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/C.scala
+2023.02.03 22:54:47 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/C.scala
+2023.02.03 22:55:39 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/C.scala
+2023.02.03 23:03:05 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+2023.02.03 23:03:05 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+2023.02.03 23:03:06 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+2023.02.03 23:03:11 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+Feb 03, 2023 11:06:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1549
+2023.02.03 23:06:28 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+2023.02.03 23:06:46 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+2023.02.03 23:06:51 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+Feb 03, 2023 11:07:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1627
+2023.02.03 23:08:44 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+2023.02.03 23:08:46 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+2023.02.03 23:09:00 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+Feb 03, 2023 11:09:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1910
+2023.02.03 23:09:41 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+2023.02.03 23:10:00 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+2023.02.03 23:10:56 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+2023.02.03 23:11:04 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+2023.02.03 23:11:20 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+2023.02.03 23:11:43 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+2023.02.03 23:11:48 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+2023.02.03 23:12:24 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+2023.02.03 23:12:29 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+2023.02.03 23:12:33 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+2023.02.03 23:12:40 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+2023.02.03 23:13:05 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+Exception in thread "pool-3-thread-2" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2023.02.03 23:13:18 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/D.scala
+2023.02.03 23:30:15 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.03 23:30:15 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.03 23:30:24 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.03 23:30:58 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.03 23:36:16 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:09:27 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/F.scala
+2023.02.04 00:09:27 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/F.scala
+2023.02.04 00:09:28 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/F.scala
+2023.02.04 00:09:36 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/F.scala
+2023.02.04 00:10:01 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/F.scala
+2023.02.04 00:11:49 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:11:51 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:12:58 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:15:46 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:16:27 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:16:38 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:17:19 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+Feb 04, 2023 12:17:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3342
+2023.02.04 00:17:33 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:17:36 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+Feb 04, 2023 12:18:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3382
+2023.02.04 00:18:27 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:21:40 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+Feb 04, 2023 12:21:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3451
+2023.02.04 00:21:46 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:21:50 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:21:50 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+Feb 04, 2023 12:22:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3545
+2023.02.04 00:22:45 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:22:47 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:22:48 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:22:53 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:22:56 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:22:57 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:23:28 INFO  time: code lens generation in 1.35s
+2023.02.04 00:23:28 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+Feb 04, 2023 12:23:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3610
+Feb 04, 2023 12:23:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3611
+2023.02.04 00:25:04 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:29:17 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+Feb 04, 2023 12:29:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3672
+2023.02.04 00:29:26 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:29:38 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:29:41 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:29:46 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:29:50 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:30:22 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:31:16 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:45:37 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:47:14 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:48:23 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:48:56 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:48:59 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:49:03 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:49:06 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:51:01 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+Exception in thread "pool-3-thread-3" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2023.02.04 00:51:04 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:51:12 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:51:32 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:51:49 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:51:51 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:51:54 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:51:56 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:52:39 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:53:57 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:54:02 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:54:09 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:54:24 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:54:42 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:54:44 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:57:33 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:57:35 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+Exception in thread "pool-3-thread-4" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2023.02.04 00:58:24 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:58:26 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 00:58:30 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 01:05:57 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 01:10:17 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 01:14:04 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 01:14:47 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 01:15:09 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 01:16:47 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 01:17:02 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 01:17:04 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 01:18:03 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
+2023.02.04 01:18:20 WARN  no build target for: /Users/lihaoyang/Code/CF/#849 div4/E.scala
